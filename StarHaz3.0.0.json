@@ -1,0 +1,476 @@
+{
+  "Name": "Hazard Unknown",
+  "Description": "Haz5.5伤害类系数，敌人数量倍率随人数增加，4人时接近3倍",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 60,
+  "StartingNitra": 60,
+  "ExtraLargeEnemyDamageResistance": [0.75, 0.8, 1.2, 1.7],
+  "ExtraLargeEnemyDamageResistanceB": [0.7, 0.7, 1.1, 1.3],
+  "ExtraLargeEnemyDamageResistanceC": [1, 1, 1, 1],
+  "ExtraLargeEnemyDamageResistanceD": [1.35, 1.35, 1.55, 1.7],
+  "EnemyDamageResistance": [1.3, 1.3, 1.5, 1.6],
+  "SmallEnemyDamageResistance": [1.2, 1.2, 1.2, 1.2],
+  "EnemyDamageModifier": [3, 3.2, 3.4, 3.6],
+  "EnemyCountModifier": [0.9, 1.7, 3.2, 3.9],
+  "EncounterDifficulty": [
+    {
+      "weight": 3,
+      "range": {
+        "min": 180,
+        "max": 320
+      }
+    },
+    {
+      "weight": 6,
+      "range": {
+        "min": 400,
+        "max": 550
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 160,
+        "max": 180
+      }
+    },
+    {
+      "weight": 7.5,
+      "range": {
+        "min": 230,
+        "max": 280
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 4,
+      "range": {
+        "min": 120,
+        "max": 150
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 180,
+        "max": 250
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 420,
+        "max": 520
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 6,
+        "max": 12
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 4,
+      "range": {
+        "min": 0.55,
+        "max": 0.79
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0.275,
+        "max": 0.475
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 12,
+    "max": 16
+  },
+  "MinPoolSize": 99,
+  "MaxActiveElites": 0,
+  "EnvironmentalDamageModifier": 1.15,
+  "PointExtractionScalar": 1.25,
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.8,
+  "WaveStartDelayScale": 15,
+  "SpeedModifier": 1.3,
+  "AttackCooldownModifier": 1.3,
+  "ProjectileSpeedModifier": 1.8,
+  "HealthRegenerationMax": 0.1,
+  "ReviveHealthRatio": 0.25,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {
+    "ED_ShootingPlant_Rep": {
+      "Base": "ED_ShootingPlant",
+      "Scale": 0.2
+    },
+    "ED_SpiderSpawner": {
+      "Base": "ED_SpiderSpawner",
+      "Scale": 0.2
+    },
+    "ED_InsectSwarm_Spawner": {
+      "Base": "ED_InsectSwarm_Spawner",
+      "Scale": 0.35
+    },
+    "ED_JellyBreeder": {
+      "Base": "ED_JellyBreeder",
+      "Scale": 0.3
+    },
+    "ED_FacilityTurret_Sniper": {
+      "Base": "ED_FacilityTurret_Sniper",
+      "Scale": 0.5
+    },
+    "ED_FacilityTurret_Burst": {
+      "Base": "ED_FacilityTurret_Burst",
+      "Scale": 0.5
+    },
+    "ED_FacilityTurret_Barrier": {
+      "Base": "ED_FacilityTurret_Barrier",
+      "Scale": 0.5
+    },
+    "ED_Prospector": {
+      "Base": "ED_Prospector",
+      "Scale": 0.2
+    },
+    "ED_PatrolBot_Caretaker": {
+      "Base": "ED_PatrolBot_Caretaker",
+      "Scale": 0.5
+    },
+    "ED_PatrolBot": {
+      "Base": "ED_PatrolBot",
+      "Scale": 0.5
+    },
+    "ED_Spider_Hoarder": {
+      "Base": "ED_Spider_Hoarder",
+      "Scale": 0.2
+    },
+    "ED_PumpkinLootBug": {
+      "Base": "ED_PumpkinLootBug",
+      "Scale": 0.3
+    },
+    "ED_Spider_ShieldTank": {
+      "Base": "ED_Spider_ShieldTank",
+      "Scale": 0.3
+    },
+    "ED_Spider_Spitter": {
+      "Base": "ED_Spider_Spitter",
+      "Scale": 0.5
+    },
+    "ED_Spider_Shooter": {
+      "Base": "ED_Spider_Shooter",
+      "Scale": 0.5
+    },
+    "ED_Spider_Grunt_Ice": {
+      "Base": "ED_Spider_Grunt_Ice",
+      "Scale": 0.55
+    },
+    "ED_Spider_Grunt": {
+      "Base": "ED_Spider_Grunt",
+      "Scale": 0.55
+    },
+    "ED_Spider_ExploderTank_King": {
+      "Base": "ED_Spider_ExploderTank_King",
+      "Scale": 0.3
+    },
+    "ED_Spider_Exploder": {
+      "Base": "ED_Spider_Exploder",
+      "Scale": 0.55
+    },
+    "ED_Spider_Buffer": {
+      "Base": "ED_Spider_Buffer",
+      "Scale": 0.35
+    },
+    "ED_Terminator": {
+      "Base": "ED_Terminator",
+      "Scale": 0.3
+    },
+    "ED_InfectedMule": {
+      "Base": "ED_InfectedMule",
+      "Scale": 0.2
+    },
+    "ED_HydraWeed": {
+      "Base": "ED_HydraWeed",
+      "Scale": 0.4
+    },
+    "ED_Bomber_Ice": {
+      "Base": "ED_Bomber_Ice",
+      "Scale": 0.3
+    },
+    "ED_Bomber": {
+      "Base": "ED_Bomber",
+      "Scale": 0.3
+    },
+    "ED_CaveLeech": {
+      "Base": "ED_CaveLeech",
+      "Scale": 0.5
+    },
+    "ED_Spider_Tank_Ice": {
+      "Base": "ED_Spider_Tank_Ice",
+      "Scale": 0.3
+    },
+    "ED_Spider_Tank": {
+      "Base": "ED_Spider_Tank",
+      "Scale": 0.3
+    },
+    "ED_Spider_RapidShooter": {
+      "Base": "ED_Spider_RapidShooter",
+      "Scale": 0.35
+    },
+    "ED_Spider_Grunt_Guard": {
+      "Base": "ED_Spider_Grunt_Guard",
+      "Scale": 0.5
+    },
+    "ED_Spider_ExploderTank": {
+      "Base": "ED_Spider_ExploderTank",
+      "Scale": 0.25
+    },
+    "ED_Mactera_TripleShooter": {
+      "Base": "ED_Mactera_TripleShooter",
+      "Scale": 0.35
+    },
+    "ED_Mactera_Shooter_Normal": {
+      "Base": "ED_Mactera_Shooter_Normal",
+      "Scale": 0.5
+    },
+    "ED_Mactera_Shooter_HeavyVeteran": {
+      "Base": "ED_Mactera_Shooter_HeavyVeteran",
+      "Scale": 0.4
+    },
+    "ED_Grabber": {
+      "Base": "ED_Grabber",
+      "Scale": 0.5
+    },
+    "ED_Shark": {
+      "Base": "ED_Shark",
+      "Scale": 0.45
+    },
+    "ED_Spider_Boss_TwinB": {
+      "Base": "ED_Spider_Boss_TwinB",
+      "Scale": 0.4
+    },
+    "ED_Spider_Boss_TwinA": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "Scale": 0.4
+    },
+    "ED_Spider_Tank_Boss": {
+      "Base": "ED_Spider_Tank_Boss",
+      "Scale": 0.3
+    },
+    "ED_Spider_Boss_Heavy": {
+      "Base": "ED_Spider_Boss_Heavy",
+      "Scale": 0.3
+    },
+    "ED_Woodlouse_Youngling_Rep": {
+      "Base": "ED_Woodlouse_Youngling",
+      "Scale": 0.6
+    },
+    "ED_Woodlouse": {
+      "Base": "ED_Woodlouse",
+      "Scale": 0.4
+    },
+    "ED_Spider_Charger": {
+      "Base": "ED_Spider_Charger",
+      "Scale": 0.35
+    },
+    "ED_Spider_Exploder_Warning": {
+      "Base": "ED_Spider_Exploder_Warning",
+      "Scale": 0.55
+    },
+    "ED_Spider_ExploderTankGhost": {
+      "Base": "ED_Spider_ExploderTankGhost",
+      "Scale": 0.25
+    },
+    "ED_Spider_Grunt_Mutated": {
+      "Base": "ED_Spider_Grunt_Mutated",
+      "Scale": 0.55
+    },
+    "ED_Spider_Amber_Shooter": {
+      "Base": "ED_Spider_Amber_Shooter",
+      "Scale": 0.3
+    },
+    "ED_Spider_Tank_Mutated": {
+      "Base": "ED_Spider_Tank_Mutated",
+      "Scale": 0.35
+    },
+    "ED_Spider_Tank_Amber": {
+      "Base": "ED_Spider_Tank_Amber",
+      "Scale": 0.3
+    },
+    "ED_Spider_Tank_HeavySpawn": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "Scale": 0.35
+    },
+    "ED_FlyingSmartRock": {
+      "Base": "ED_FlyingSmartRock",
+      "Scale": 0.4
+    },
+    "ED_TunnelSwarmer": {
+      "Base": "ED_Woodlouse_Youngling",
+      "MinSpawnCount": 5,
+      "MaxSpawnCount": 9,
+      "IdealSpawnSize": 6
+    },
+    "ED_Spider_Grunt_Attacker": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "PawnStats": {
+        "PST_ColdResistance": 0.7,
+        "PST_CorrosiveResistance": 0.7,
+        "PST_ElectricResistance": 0.5,
+        "PST_FireResistance": 0.5,
+        "PST_PoisonResistance": 0.5,
+        "PST_ExplosionResistance": 0.9,
+        "PST_RadiationResistance": 0.9,
+        "PST_MovementSpeed": 2,
+        "PST_MovementSpeedPenaltyReduction": 0.5,
+        "PST_ExplodeOnDeath": 100
+      },
+      "Scale": 0.55,
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    },
+    "ED_ShootingPlant_Rapid": {
+      "Base": "ED_ShootingPlant",
+      "DifficultyRating": 150,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 3,
+      "MinSpawnCount": 1,
+      "TimeDilation": 4,
+      "Rarity": 20,
+      "PawnStats": {
+        "PST_CorrosiveResistance": 1,
+        "PST_ExplosionResistance": 1
+      },
+      "Scale": 0.25
+    },
+    "ED_Bomber_Explosive": {
+      "Base": "ED_Bomber_Explosive",
+      "Rarity": 8,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 2,
+      "DifficultyRating": 90,
+      "PawnStats": {
+        "PST_ColdResistance": 0.7,
+        "PST_CorrosiveResistance": 0.7,
+        "PST_ElectricResistance": 0.5,
+        "PST_FireResistance": 0.5,
+        "PST_PoisonResistance": 0.5,
+        "PST_ExplosionResistance": 0.9,
+        "PST_RadiationResistance": 0.9,
+        "PST_MovementSpeed": 2.2,
+        "PST_MovementSpeedPenaltyReduction": 0.3
+      },
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "Scale": 0.3
+    },
+    "ED_Spider_Grunt_Rock": {
+      "Base": "ED_Spider_Grunt_Rock",
+      "Rarity": 10,
+      "DifficultyRating": 15,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 3,
+      "IdealSpawnSize": 1,
+      "Scale": 0.55,
+      "PawnStats": {
+        "PST_MovementSpeedEnvironmentalPenaltyReduction": 1,
+        "PST_MovementSpeedPenaltyReduction": 1
+      },
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    },
+    "ED_Spider_Tank_Rock": {
+      "Base": "ED_Spider_Tank_Rock",
+      "Rarity": 11,
+      "Scale": 0.35,
+      "DifficultyRating": 95,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 1,
+      "IdealSpawnSize": 1,
+      "PawnStats": {
+        "PST_MovementSpeedEnvironmentalPenaltyReduction": 1,
+        "PST_MovementSpeedPenaltyReduction": 1,
+        "PST_PhysicalResistance": -1.5
+      },
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    }
+  },
+  "EnemyPool": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "CommonEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "DisruptiveEnemies": {
+    "clear": false,
+    "add": [
+      "ED_Bomber_Explosive",
+      "ED_Spider_Tank_Rock",
+      "ED_Spider_Grunt_Rock",
+      "ED_Woodlouse_Youngling_Rep"
+    ],
+    "remove": ["ED_Woodlouse_Youngling"]
+  },
+  "StationaryEnemies": {
+    "clear": false,
+    "add": ["ED_ShootingPlant_Rapid", "ED_ShootingPlant_Rep"],
+    "remove": ["ED_ShootingPlant", "ED_Woodlouse_Youngling"]
+  },
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}

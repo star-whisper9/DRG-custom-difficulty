@@ -1,0 +1,372 @@
+{
+  "Name": "Pickaxe ONLY",
+  "Description": "",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 60,
+  "MaxActiveEnemies": 120,
+  "ResupplyCost": 80,
+  "StartingNitra": 40,
+  "ExtraLargeEnemyDamageResistance": [0.75, 0.8, 0.8, 0.9],
+  "ExtraLargeEnemyDamageResistanceB": [0.7, 0.7, 0.8, 0.9],
+  "ExtraLargeEnemyDamageResistanceC": [0.6, 0.7, 0.8, 0.9],
+  "ExtraLargeEnemyDamageResistanceD": [0.8, 0.8, 0.8, 0.9],
+  "EnemyDamageResistance": [0.8, 0.8, 0.8, 0.9],
+  "SmallEnemyDamageResistance": [0.8, 0.8, 0.8, 0.9],
+  "EnemyDamageModifier": [2.8, 3, 3.2, 3.4],
+  "EnemyCountModifier": [0.85, 0.85, 1.15, 1.35],
+  "EncounterDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 100,
+        "max": 200
+      }
+    },
+    {
+      "weight": 6,
+      "range": {
+        "min": 300,
+        "max": 400
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 400,
+        "max": 500
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 150,
+        "max": 200
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 250,
+        "max": 350
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 160,
+        "max": 180
+      }
+    },
+    {
+      "weight": 7.5,
+      "range": {
+        "min": 230,
+        "max": 280
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 299,
+        "max": 299
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 4,
+      "range": {
+        "min": 120,
+        "max": 150
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 180,
+        "max": 250
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "weight": 8,
+      "range": {
+        "min": 3,
+        "max": 4
+      }
+    },
+    {
+      "weight": 1,
+      "range": {
+        "min": 5,
+        "max": 6
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 2,
+        "max": 4
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 3,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "weight": 9,
+      "range": {
+        "min": 0.15,
+        "max": 0.3
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 0.4,
+        "max": 0.6
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0.175,
+        "max": 0.175
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 3,
+    "max": 3
+  },
+  "MinPoolSize": 8,
+  "MaxActiveElites": 0,
+  "EnvironmentalDamageModifier": 1.1,
+  "PointExtractionScalar": 1.1,
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.7,
+  "WaveStartDelayScale": 0,
+  "SpeedModifier": 1.15,
+  "AttackCooldownModifier": 1.5,
+  "ProjectileSpeedModifier": 1.7,
+  "HealthRegenerationMax": 0.1,
+  "ReviveHealthRatio": 0.1,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {
+    "ED_Spider_Tank_Boss": {
+      "Base": "ED_Spider_Tank_Boss",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 2.5
+      }
+    },
+    "ED_Spider_Tank_HeavySpawn": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 2.5
+      }
+    },
+    "ED_HydraWeed": {
+      "Base": "ED_HydraWeed",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 2.5
+      }
+    },
+    "ED_Spider_Boss_Heavy": {
+      "Base": "ED_Spider_Boss_Heavy",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 2.5
+      }
+    },
+    "ED_Spider_Boss_TwinA": {
+      "Base": "ED_Spider_Boss_TwinA",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 2.5
+      }
+    },
+    "ED_Spider_Boss_TwinB": {
+      "Base": "ED_Spider_Boss_TwinB",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 2.5
+      }
+    },
+    "ED_Spider_ShieldTank": {
+      "Base": "ED_Spider_ShieldTank",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 1.8
+      }
+    },
+    "ED_Spider_Tank": {
+      "Base": "ED_Spider_Tank",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 1.6
+      }
+    },
+    "ED_Spider_Tank_Mutated": {
+      "Base": "ED_Spider_Tank_Mutated",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 1.6
+      }
+    },
+    "ED_Spider_Tank_Ice": {
+      "Base": "ED_Spider_Tank_Ice",
+      "PawnStats": {
+        "PST_DamageFromPlayers": 1.6
+      }
+    }
+  },
+  "EnemyPool": {
+    "clear": false,
+    "add": [],
+    "remove": [
+      "ED_Bomber",
+      "ED_CaveLeech",
+      "ED_Bomber_Ice",
+      "ED_Grabber",
+      "ED_JellyBreeder",
+      "ED_Mactera_Shooter_HeavyVeteran",
+      "ED_Mactera_Shooter_Normal",
+      "ED_Mactera_TripleShooter",
+      "ED_ShootingPlant",
+      "ED_Spider_ExploderTank",
+      "ED_Spider_ExploderTank_King",
+      "ED_Spider_RapidShooter",
+      "ED_Spider_Shooter",
+      "ED_Spider_Spitter"
+    ]
+  },
+  "CommonEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": [
+      "ED_Bomber",
+      "ED_CaveLeech",
+      "ED_Bomber_Ice",
+      "ED_Grabber",
+      "ED_JellyBreeder",
+      "ED_Mactera_Shooter_HeavyVeteran",
+      "ED_Mactera_Shooter_Normal",
+      "ED_Mactera_TripleShooter",
+      "ED_ShootingPlant",
+      "ED_Spider_ExploderTank",
+      "ED_Spider_ExploderTank_King",
+      "ED_Spider_RapidShooter",
+      "ED_Spider_Shooter",
+      "ED_Spider_Spitter"
+    ]
+  },
+  "SpecialEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": [
+      "ED_Bomber",
+      "ED_CaveLeech",
+      "ED_Bomber_Ice",
+      "ED_Grabber",
+      "ED_JellyBreeder",
+      "ED_Mactera_Shooter_HeavyVeteran",
+      "ED_Mactera_Shooter_Normal",
+      "ED_Mactera_TripleShooter",
+      "ED_ShootingPlant",
+      "ED_Spider_ExploderTank",
+      "ED_Spider_ExploderTank_King",
+      "ED_Spider_RapidShooter",
+      "ED_Spider_Shooter",
+      "ED_Spider_Spitter"
+    ]
+  },
+  "DisruptiveEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": [
+      "ED_Bomber",
+      "ED_CaveLeech",
+      "ED_Bomber_Ice",
+      "ED_Grabber",
+      "ED_JellyBreeder",
+      "ED_Mactera_Shooter_HeavyVeteran",
+      "ED_Mactera_Shooter_Normal",
+      "ED_Mactera_TripleShooter",
+      "ED_ShootingPlant",
+      "ED_Spider_ExploderTank",
+      "ED_Spider_ExploderTank_King",
+      "ED_Spider_RapidShooter",
+      "ED_Spider_Shooter",
+      "ED_Spider_Spitter"
+    ]
+  },
+  "StationaryEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": [
+      "ED_Bomber",
+      "ED_CaveLeech",
+      "ED_Bomber_Ice",
+      "ED_Grabber",
+      "ED_JellyBreeder",
+      "ED_Mactera_Shooter_HeavyVeteran",
+      "ED_Mactera_Shooter_Normal",
+      "ED_Mactera_TripleShooter",
+      "ED_ShootingPlant",
+      "ED_Spider_ExploderTank",
+      "ED_Spider_ExploderTank_King",
+      "ED_Spider_RapidShooter",
+      "ED_Spider_Shooter",
+      "ED_Spider_Spitter"
+    ]
+  },
+  "SeasonalEvents": [
+    "SE_ProspectorDrone",
+    "SE_ProspectorDataDeposit",
+    "SE_RivalBomb"
+  ],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.5,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}

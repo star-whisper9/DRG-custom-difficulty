@@ -1,0 +1,271 @@
+{
+  "Name": "Hazard Unknown/是几级呢",
+  "Description": "Haz5.5伤害类系数，敌人数量倍率随人数增加，4人时接近3倍",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 60,
+  "StartingNitra": 60,
+  "ExtraLargeEnemyDamageResistance": [0.75, 0.8, 1.2, 1.7],
+  "ExtraLargeEnemyDamageResistanceB": [0.7, 0.7, 1.1, 1.3],
+  "ExtraLargeEnemyDamageResistanceC": [1, 1, 1, 1],
+  "ExtraLargeEnemyDamageResistanceD": [1.35, 1.35, 1.55, 1.7],
+  "EnemyDamageResistance": [1.3, 1.3, 1.5, 1.6],
+  "SmallEnemyDamageResistance": [1.2, 1.2, 1.2, 1.2],
+  "EnemyDamageModifier": [3, 3.2, 3.4, 3.6],
+  "EnemyCountModifier": [0.9, 1.7, 3.2, 3.9],
+  "EncounterDifficulty": [
+    {
+      "weight": 3,
+      "range": {
+        "min": 180,
+        "max": 320
+      }
+    },
+    {
+      "weight": 6,
+      "range": {
+        "min": 400,
+        "max": 550
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 160,
+        "max": 180
+      }
+    },
+    {
+      "weight": 7.5,
+      "range": {
+        "min": 230,
+        "max": 280
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 4,
+      "range": {
+        "min": 120,
+        "max": 150
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 180,
+        "max": 250
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 420,
+        "max": 520
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 6,
+        "max": 6
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 8,
+        "max": 8
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 4,
+      "range": {
+        "min": 0.55,
+        "max": 0.79
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0.275,
+        "max": 0.475
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 12,
+    "max": 12
+  },
+  "MinPoolSize": 99,
+  "MaxActiveElites": 0,
+  "EnvironmentalDamageModifier": 1.15,
+  "PointExtractionScalar": 1.25,
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.8,
+  "WaveStartDelayScale": 15,
+  "SpeedModifier": 1.3,
+  "AttackCooldownModifier": 1.3,
+  "ProjectileSpeedModifier": 1.8,
+  "HealthRegenerationMax": 0.1,
+  "ReviveHealthRatio": 0.25,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {
+    "ED_TunnelSwarmer": {
+      "Base": "ED_Woodlouse_Youngling",
+      "MinSpawnCount": 5,
+      "MaxSpawnCount": 9,
+      "IdealSpawnSize": 6
+    },
+    "SP_ED_Spider_Grunt_Attacker": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "PawnStats": {
+        "PST_ColdResistance": 0.7,
+        "PST_CorrosiveResistance": 0.7,
+        "PST_ElectricResistance": 0.5,
+        "PST_FireResistance": 0.5,
+        "PST_PoisonResistance": 0.5,
+        "PST_ExplosionResistance": 0.9,
+        "PST_RadiationResistance": 0.9,
+        "PST_MovementSpeed": 2,
+        "PST_MovementSpeedPenaltyReduction": 0.5,
+        "PST_ExplodeOnDeath": 100
+      },
+      "Rarity": 6,
+      "DifficultyRating": 50,
+      "MinSpawnCount": 2,
+      "MaxSpawnCount": 8,
+      "IdealSpawnSize": 4,
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    },
+    "ED_ShootingPlant_Rapid": {
+      "Base": "ED_ShootingPlant",
+      "DifficultyRating": 150,
+      "IdealSpawnSize": 1,
+      "MaxSpawnCount": 3,
+      "MinSpawnCount": 1,
+      "TimeDilation": 4,
+      "Rarity": 20,
+      "PawnStats": {
+        "PST_CorrosiveResistance": 1,
+        "PST_ExplosionResistance": 1
+      }
+    },
+    "ED_Bomber_Explosive": {
+      "Base": "ED_Bomber_Explosive",
+      "Rarity": 8,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 2,
+      "DifficultyRating": 90,
+      "PawnStats": {
+        "PST_ColdResistance": 0.7,
+        "PST_CorrosiveResistance": 0.7,
+        "PST_ElectricResistance": 0.5,
+        "PST_FireResistance": 0.5,
+        "PST_PoisonResistance": 0.5,
+        "PST_ExplosionResistance": 0.9,
+        "PST_RadiationResistance": 0.9,
+        "PST_MovementSpeed": 2.2,
+        "PST_MovementSpeedPenaltyReduction": 0.3
+      },
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    },
+    "SP_Spider_Grunt_Rock": {
+      "Base": "ED_Spider_Grunt_Rock",
+      "Rarity": 10,
+      "DifficultyRating": 15,
+      "MinSpawnCount": 1,
+      "MaxSpawnCount": 3,
+      "IdealSpawnSize": 1,
+      "PawnStats": {
+        "PST_MovementSpeedEnvironmentalPenaltyReduction": 1,
+        "PST_MovementSpeedPenaltyReduction": 1
+      },
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    },
+    "SP_Spider_Tank_Rock": {
+      "Base": "ED_Spider_Tank_Rock",
+      "Rarity": 11,
+      "DifficultyRating": 95,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 1,
+      "IdealSpawnSize": 1,
+      "PawnStats": {
+        "PST_MovementSpeedEnvironmentalPenaltyReduction": 1,
+        "PST_MovementSpeedPenaltyReduction": 1,
+        "PST_PhysicalResistance": -1.5
+      },
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true
+    }
+  },
+  "EnemyPool": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "CommonEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "clear": false,
+    "add": ["SP_ED_Spider_Grunt_Attacker"],
+    "remove": []
+  },
+  "DisruptiveEnemies": {
+    "clear": false,
+    "add": [
+      "ED_Bomber_Explosive",
+      "SP_Spider_Tank_Rock",
+      "SP_Spider_Grunt_Rock"
+    ],
+    "remove": []
+  },
+  "StationaryEnemies": {
+    "clear": false,
+    "add": ["ED_ShootingPlant_Rapid", "SP_ED_Spider_Grunt_Attacker"],
+    "remove": []
+  },
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}
